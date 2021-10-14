@@ -8,10 +8,11 @@ namespace CollectionExecutor.Persistence.Data
     {
         public DbSet<Collection> Collections { get; set; }
         public DbSet<Request> Requests { get; set; }
-        //public CollectionExecutorDbContext(IConfiguration configuration)
-        //{
-        //    Console.WriteLine("Ctor");
-        //}
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CollectionExecutorDbContext).Assembly);
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlServer("Data Source=localhost,1433;Database=CollectionExecutor;User ID=sa;Password=@myPassword");

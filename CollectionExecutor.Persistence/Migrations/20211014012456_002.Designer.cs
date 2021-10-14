@@ -4,14 +4,16 @@ using CollectionExecutor.Persistence.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CollectionExecutor.Persistence.Migrations
 {
     [DbContext(typeof(CollectionExecutorDbContext))]
-    partial class CollectionExecutorDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211014012456_002")]
+    partial class _002
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CollectionExecutor.Model\CollectionExecutor.Model.csproj" />
+    <ProjectReference Include="..\CollectionExecutor.Util\CollectionExecutor.Util.csproj" />
   </ItemGroup>
 
 </Project>
