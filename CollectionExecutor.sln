@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{EB520668-6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionExecutor.Util", "CollectionExecutor.Util\CollectionExecutor.Util.csproj", "{84F8F971-F44D-4922-AC84-286E9F647E01}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F4272EAA-E8CF-4CB9-B532-0860B64D53CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionExecutor.API", "CollectionExecutor.API\CollectionExecutor.API.csproj", "{2F6CD9DC-FACE-4FCC-A040-7DADB68FAFF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{84F8F971-F44D-4922-AC84-286E9F647E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F8F971-F44D-4922-AC84-286E9F647E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84F8F971-F44D-4922-AC84-286E9F647E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6CD9DC-FACE-4FCC-A040-7DADB68FAFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6CD9DC-FACE-4FCC-A040-7DADB68FAFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6CD9DC-FACE-4FCC-A040-7DADB68FAFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6CD9DC-FACE-4FCC-A040-7DADB68FAFF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +55,7 @@ Global
 		{72C02930-2F0F-43DF-AF22-FB58C3612A44} = {8C126DA8-1B57-4518-BD75-50DABC9AEB53}
 		{099E9CC0-57EA-4553-A264-AFFC348C29E9} = {1A651C6C-AE5A-47A5-BD89-B1DC5ACBCA02}
 		{84F8F971-F44D-4922-AC84-286E9F647E01} = {EB520668-6506-4DFF-83BA-22D42136CE32}
+		{2F6CD9DC-FACE-4FCC-A040-7DADB68FAFF9} = {F4272EAA-E8CF-4CB9-B532-0860B64D53CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29F3B975-71EA-4762-ADF7-686A3D6E956F}
